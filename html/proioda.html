@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <!-- Βασικές πληροφορίες κεφαλίδας -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BikeShop - Προϊόντα</title>
+    
+    <!-- Συνδέσεις με εξωτερικά αρχεία -->
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/proioda.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Επικεφαλίδα ιστοσελίδας -->
+    <header>
+        <nav>
+            <!-- Λογότυπο και τίτλος -->
+            <div class="logo">
+                <img src="../photos/icons/pedal_bike.png" alt="Λογότυπο BikeShop">
+                <h1>BikeShop</h1>
+            </div>
+            <!-- Κουμπί hamburger menu -->
+            <button class="hamburger-menu">
+                <img src="../photos/icons/menu.png" alt="Menu">
+            </button>
+            <!-- Μενού πλοήγησης -->
+            <ul class="nav-links">
+                <li><a href="index.html"><img src="../photos/icons/home.png" alt="Αρχική"> Αρχική</a></li>
+                <li><a href="katigories.html"><img src="../photos/icons/category.png" alt="Κατηγορίες"> Κατηγορίες</a></li>
+                <li><a href="proioda.html"><img src="../photos/icons/proioda.png" alt="Προϊόντα"> Προϊόντα</a></li>
+                <li><a href="login.html"><img src="../photos/icons/person.png" alt="Λογαριασμός"> Λογαριασμός</a></li>
+                <li><a href="#"><img src="../photos/icons/black.png" alt="Theme"> Theme</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- Κύριο περιεχόμενο -->
+<main>
+    <!-- Ενότητα προϊόντων -->
+    <section class="products">
+        <h2>Όλα τα Προϊόντα</h2>
+        <div class="product-grid">
+            <!-- Κάρτα προϊόντος 1 -->
+            <div class="product-card" data-title="Enduro Bike" data-img="../photos/bikes/mtb1.jpg">
+                <img src="../photos/bikes/mtb1.jpg" alt="Mountain Bike">
+                <h3>Enduro Bike</h3>
+                <p class="description">Ιδανικό για off-road και downhill. Με ανάρτηση 180mm και ανθεκτικό πλαίσιο.</p>
+                <p class="price">€899.99</p>
+                <table class="bike-specs" style="display:none">
+                    <tr><th>Ανάρτηση</th><td>180mm</td></tr>
+                    <tr><th>Πλαίσιο</th><td>Αλουμίνιο</td></tr>
+                    <tr><th>Βάρος</th><td>14.5kg</td></tr>
+                    <tr><th>Ταχύτητες</th><td>12</td></tr>
+                    <tr><th>Τιμή</th><td>€899.99</td></tr>
+                </table>
+            </div>
+            <!-- Κάρτα προϊόντος 2 -->
+            <div class="product-card" data-title="fixie Bike" data-img="../photos/bikes/Road1.jpg">
+                <img src="../photos/bikes/Road1.jpg" alt="Fixie Bike">
+                <h3>Fixie Bike</h3>
+                <p class="description">Ένα ποδήλατο σταθερής ταχύτητας ή fixie είναι ένα ποδήλατο που διαθέτει σύστημα μετάδοσης κίνησης χωρίς μηχανισμό ελεύθερης περιστροφής</p>
+                <p class="price">€1,299.99</p>
+                <table class="bike-specs" style="display:none">
+                    <tr><th>Υλικό Πλαισίου</th><td>Carbon</td></tr>
+                    <tr><th>Βάρος</th><td>7.8kg</td></tr>
+                    <tr><th>Ταχύτητες</th><td>22</td></tr>
+                    <tr><th>Τύπος Φρένων</th><td>V-BRAKE</td></tr>
+                    <tr><th>Τιμή</th><td>€1,299.99</td></tr>
+                </table>
+            </div>
+            <!-- Κάρτα προϊόντος 3 -->
+            <div class="product-card" data-title="City Bike" data-img="../photos/bikes/city1.jpg">
+                <img src="../photos/bikes/city1.jpg" alt="City Bike">
+                <h3>City Bike</h3>
+                <p class="description">Άνετο ποδήλατο για την πόλη με αμαξοθήκη και φώτα. Ιδανικό για καθημερινή χρήση.</p>
+                <p class="price">€599.99</p>
+                <table class="bike-specs" style="display:none">
+                    <tr><th>Αμαξοθήκη</th><td>Ναι</td></tr>
+                    <tr><th>Φώτα</th><td>Ναι</td></tr>
+                    <tr><th>Βάρος</th><td>12.2kg</td></tr>
+                    <tr><th>Ταχύτητες</th><td>7</td></tr>
+                    <tr><th>Τιμή</th><td>€599.99</td></tr>
+                </table>
+            </div>
+            <!-- Κάρτα προϊόντος 4 -->
+            <div class="product-card" data-title="Trail Bike" data-img="../photos/bikes/mtb2.jpg">
+                <img src="../photos/bikes/mtb2.jpg" alt="Mountain Bike">
+                <h3>Trail Bike</h3>
+                <p class="description">Ισορροπημένο mountain bike για όλα τα μονοπάτια. Με ανάρτηση 140mm.</p>
+                <p class="price">€1,199.99</p>
+                <table class="bike-specs" style="display:none">
+                    <tr><th>Ανάρτηση</th><td>140mm</td></tr>
+                    <tr><th>Πλαίσιο</th><td>Αλουμίνιο</td></tr>
+                    <tr><th>Βάρος</th><td>13.8kg</td></tr>
+                    <tr><th>Ταχύτητες</th><td>11</td></tr>
+                    <tr><th>Τιμή</th><td>€1,199.99</td></tr>
+                </table>
+            </div>
+            <!-- Κάρτα προϊόντος 5 -->
+            <div class="product-card" data-title="Gravel Bike" data-img="../photos/bikes/Gravel1.jpg">
+                <img src="../photos/bikes/Gravel1.jpg" alt="Gravel Bike">
+                <h3>Gravel Bike</h3>
+                <p class="description">Ευέλικτο ποδήλατο για δρόμους και μονοπάτια. Με ευρύτερα ελαστικά για καλύτερη πρόσφυση.</p>
+                <p class="price">€1,499.99</p>
+                <table class="bike-specs" style="display:none">
+                    <tr><th>Ελαστικά</th><td>Ευρεία</td></tr>
+                    <tr><th>Υλικό Πλαισίου</th><td>Αλουμίνιο</td></tr>
+                    <tr><th>Βάρος</th><td>10.5kg</td></tr>
+                    <tr><th>Ταχύτητες</th><td>18</td></tr>
+                    <tr><th>Τιμή</th><td>€1,499.99</td></tr>
+                </table>
+            </div>
+            <!-- Κάρτα προϊόντος 6 -->
+            <div class="product-card" data-title="Folding Bike" data-img="../photos/bikes/Folding1.jpg">
+                <img src="../photos/bikes/Folding1.jpg" alt="City Bike">
+                <h3>Folding Bike</h3>
+                <p class="description">Συμπαγές ποδήλατο που διπλώνεται εύκολα. Ιδανικό για μεταφορά και αποθήκευση.</p>
+                <p class="price">€799.99</p>
+                <table class="bike-specs" style="display:none">
+                    <tr><th>Διπλούμενο</th><td>Ναι</td></tr>
+                    <tr><th>Βάρος</th><td>11.3kg</td></tr>
+                    <tr><th>Ταχύτητες</th><td>6</td></tr>
+                    <tr><th>Διαστάσεις</th><td>68x60x35cm</td></tr>
+                    <tr><th>Τιμή</th><td>€799.99</td></tr>
+                </table>
+            </div>
+            <!-- Κάρτα προϊόντος 7 -->
+            <div class="product-card" data-title="XC Bike" data-img="../photos/bikes/XC1.jpg">
+                <img src="../photos/bikes/XC1.jpg" alt="XC Bike">
+                <h3>XC Bike</h3>
+                <p class="description">Ισορροπημένο mountain bike για όλα τα μονοπάτια. Αλλα και για χρήση στην πόλη</p>
+                <p class="price">€1,000</p>
+                <table class="bike-specs" style="display:none">
+                    <tr><th>Ανάρτηση</th><td>120mm</td></tr>
+                    <tr><th>Πλαίσιο</th><td>Αλουμίνιο</td></tr>
+                    <tr><th>Βάρος</th><td>10.0kg</td></tr>
+                    <tr><th>Ταχύτητες</th><td>16</td></tr>
+                    <tr><th>Τιμή</th><td>€1,000</td></tr>
+                </table>
+            </div>
+            <!-- Κάρτα προϊόντος 8 -->
+            <div class="product-card" data-title="Road Bike" data-img="../photos/bikes/Road2.jpg">
+                <img src="../photos/bikes/Road2.jpg" alt="Road Bike">
+                <h3>Road Bike</h3>
+                <p class="description">Ελαφρύ και γρήγορο ποδήλατο για ασφαλτοστρωμένους δρόμους. Ιδανικό για αγώνες.</p>
+                <p class="price">€3.000</p>
+                <table class="bike-specs" style="display:none">
+                    <tr><th>Υλικό Πλαισίου</th><td>Carbon</td></tr>
+                    <tr><th>Βάρος</th><td>7.8kg</td></tr>
+                    <tr><th>Ταχύτητες</th><td>22</td></tr>
+                    <tr><th>Τύπος Φρένων</th><td>V-Brakes</td></tr>
+                    <tr><th>Τιμή</th><td>€3,000</td></tr>
+                </table>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <!-- Ενότητα επικοινωνίας -->
+            <div class="footer-section">
+                <div style="display: flex; justify-content: center; align-items: flex-start; gap: 2em;">
+                    <div style="text-align: center;">
+                        <h3 style="margin-bottom: 0.3em;">Επικοινωνία</h3>
+                        <div>
+                            <a href="tel:210 1234567" style="display: flex; align-items: center; justify-content: center; margin-bottom: 0.2em;">
+                                <img src="../photos/icons/phone.png" style="height:20px; margin-right:5px;">
+                                210 1234567
+                            </a>
+                            <a href="mailto:info@bikeshop.gr" style="display: flex; align-items: center; justify-content: center;">
+                                <img src="../photos/icons/email.png" style="height:20px; margin-right:5px;">
+                                info@bikeshop.gr
+                            </a>
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 0.5em;">
+                        <a href="about.html" style="display: flex; align-items: center;">
+                            <img src="../photos/icons/person.png" style="height:20px; margin-right:5px;">
+                            About us
+                        </a>
+                        <a href="contact.html" style="display: flex; align-items: center;">
+                            <img src="../photos/icons/email.png" style="height:20px; margin-right:5px;">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Το copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 BikeShop.</p>
+        </div>
+    </footer>
+
+    <!-- Modal container -->
+    <div id="bike-modal" class="bike-modal-js">
+        <div class="bike-modal-content-js">
+            <button class="close-modal-js" title="Κλείσιμο">&times;</button>
+            <img id="modal-bike-img-js" src="" alt="Bike" />
+            <h2 id="modal-bike-title-js"></h2>
+            <table class="bike-specs" id="modal-bike-specs-js"></table>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

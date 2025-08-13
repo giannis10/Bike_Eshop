@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <!-- Βασικές πληροφορίες για τη σελίδα -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Σύνδεση | BikeShop</title>
+    <!-- Συνδέουμε τα CSS αρχεία μας -->
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Το header είναι η επικεφαλίδα της σελίδας -->
+    <header>
+        <nav>
+            <!-- Το logo και ο τίτλος της σελίδας -->
+            <div class="logo">
+                <img src="../photos/icons/pedal_bike.png" alt="Λογότυπο BikeShop">
+                <h1>BikeShop</h1>
+            </div>
+            <!-- Το κουμπί για το μενού στις κινητές συσκευές -->
+            <button class="hamburger-menu">
+                <img src="../photos/icons/menu.png" alt="Menu">
+            </button>
+            <!-- Η λίστα με τα links του μενού -->
+            <ul class="nav-links">
+                <li><a href="index.html"><img src="../photos/icons/home.png" alt="Αρχική"> Αρχική</a></li>
+                <li><a href="katigories.html"><img src="../photos/icons/category.png" alt="Κατηγορίες"> Κατηγορίες</a></li>
+                <li><a href="proioda.html"><img src="../photos/icons/proioda.png" alt="Προϊόντα"> Προϊόντα</a></li>
+                <li><a href="login.html"><img src="../photos/icons/person.png" alt="Λογαριασμός"> Λογαριασμός</a></li>
+                <li><a href="#"><img src="../photos/icons/black.png" alt="Theme"> Theme</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Η φόρμα σύνδεσης -->
+    <div class="login-container">
+        <form class="login-form">
+            <h2>Σύνδεση</h2>
+            <!-- Το πεδίο για το όνομα χρήστη -->
+            <div class="input-group">
+                <label for="username">Όνομα χρήστη ή Email</label>
+                <input type="text" id="username" name="username" placeholder="Όνομα χρήστη ή Email" required>
+            </div>
+            <!-- Το πεδίο για τον κωδικό -->
+            <div class="input-group">
+                <label for="password">Κωδικός πρόσβασης</label>
+                <input type="password" id="password" name="password" placeholder="Κωδικός πρόσβασης" required>
+            </div>
+            <!-- Το κουμπί σύνδεσης -->
+            <button type="submit" class="login-btn">Σύνδεση</button>
+            <!-- Οι σύνδεσμοι για ξεχασμένο κωδικό και εγγραφή -->
+            <div class="login-links">
+                <a href="#">Ξέχασα τον κωδικό</a> |
+                <a href="#">Εγγραφή</a>
+            </div>
+        </form>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <!-- Ενότητα επικοινωνίας -->
+            <div class="footer-section">
+                <div style="display: flex; justify-content: center; align-items: flex-start; gap: 2em;">
+                    <div style="text-align: center;">
+                        <h3 style="margin-bottom: 0.3em;">Επικοινωνία</h3>
+                        <div>
+                            <a href="tel:210 1234567" style="display: flex; align-items: center; justify-content: center; margin-bottom: 0.2em;">
+                                <img src="../photos/icons/phone.png" style="height:20px; margin-right:5px;">
+                                210 1234567
+                            </a>
+                            <a href="mailto:info@bikeshop.gr" style="display: flex; align-items: center; justify-content: center;">
+                                <img src="../photos/icons/email.png" style="height:20px; margin-right:5px;">
+                                info@bikeshop.gr
+                            </a>
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 0.5em;">
+                        <a href="about.html" style="display: flex; align-items: center;">
+                            <img src="../photos/icons/person.png" style="height:20px; margin-right:5px;">
+                            About us
+                        </a>
+                        <a href="contact.html" style="display: flex; align-items: center;">
+                            <img src="../photos/icons/email.png" style="height:20px; margin-right:5px;">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Το copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 BikeShop.</p>
+        </div>
+    </footer>
+    <!-- Τα JavaScript αρχεία μας -->
+    <script src="../js/index.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html> 

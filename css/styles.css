@@ -1,0 +1,56 @@
+/* Dark Mode Styles */
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+[data-theme="dark"] {
+    --background-color: #1a1a1a;
+    --text-color: #ffffff;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Στυλ για το κουμπί μέσα στο nav */
+nav {
+    position: relative;
+}
+.theme-toggle {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+    z-index: 2000;
+    font-size: 1.7em;
+    transition: none;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.theme-toggle:hover {
+    background: none;
+}
+[data-theme="dark"] .theme-toggle {
+    background: none;
+    color: inherit;
+}
+[data-theme="dark"] .theme-toggle:hover {
+    background: none;
+}
+
+.theme-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    display: block;
+    pointer-events: none;
+} 
